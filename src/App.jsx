@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import logoFira from './assets/Firebase_logo.png'
 import logoFira2 from './assets/Firebase2_logo.png'
+import { Flame  } from 'lucide-react';
 
 export default function App() {
 
@@ -42,7 +43,7 @@ export default function App() {
     </main>
           <footer>
               <a href="https://firebase.google.com/?hl=pt-br" className="link-footer">
-              <img src={logoFira2} className="logo2" />
+                 <Flame />
               saiba mais...
             </a>
           </footer>

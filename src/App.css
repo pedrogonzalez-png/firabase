@@ -23,11 +23,6 @@ img{
   height: auto;
   transition: 0.5s;
 }
-.logo2{
-  width: 20%;
-  height: auto;
-  float: left;
-}
 .link-footer{
   display: flex;
   align-items: center;  
